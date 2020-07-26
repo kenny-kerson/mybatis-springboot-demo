@@ -1,0 +1,1 @@
+insert into demotable (key1, val1, val2) values ('123', 'test_val1', 'test_val2');

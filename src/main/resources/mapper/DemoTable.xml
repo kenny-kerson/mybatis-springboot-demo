@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kenny.minbatistest.infra.DemoTableMapper">
+
+    <select id="selectByPK" resultType="DemoTable">
+        SELECT key1
+             , val1
+             , val2
+          FROM DemoTable
+         WHERE 1=1
+           AND key1 = #{key1}
+    </select>
+
+</mapper>
