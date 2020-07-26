@@ -1,8 +1,7 @@
-package com.kenny.minbatistest.config;
+package com.kenny.minbatistest.common.config;
 
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 //@Configuration
 // 샘플 : https://goni9071.tistory.com/355
