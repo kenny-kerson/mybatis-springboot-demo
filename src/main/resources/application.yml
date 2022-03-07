@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -17,3 +17,7 @@ mybatis:
     - 'classpath:/mapper/*.xml'
   type-aliases-package: com.kenny.minbatistest.domain;
     com.kenny.minbatistest.infra;
+
+logging:
+  level:
+    com.kenny.minbatistest: DEBUG

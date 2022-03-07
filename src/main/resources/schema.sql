@@ -1,5 +1,7 @@
 CREATE TABLE DEMOTABLE (
-   key1 VARCHAR(20) NOT NULL,
-   val1 VARCHAR(20),
-   val2 VARCHAR(20)
+   id VARCHAR(20) NOT NULL,
+   amount numeric(17,2),
+   count integer,
+   bcount bigint,
+   name VARCHAR(20)
 );

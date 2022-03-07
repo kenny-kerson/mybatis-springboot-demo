@@ -6,12 +6,14 @@
 <mapper namespace="com.kenny.minbatistest.infra.DemoTableMapper">
 
     <select id="selectByPK" resultType="DemoTable">
-        SELECT key1
-             , val1
-             , val2
-          FROM DemoTable
+        SELECT id
+             , amount
+             , count
+             , bcount
+             , name
+          FROM DEMOTABLE
          WHERE 1=1
-           AND key1 = #{key1}
+           AND id = #{key1}
     </select>
 
 </mapper>
